@@ -1,10 +1,10 @@
 import React from "react";
 
-const ImgRender = () => {
+const ImgRender = ({imgSrc}) => {
 
 
     return (
-        <p> test</p>
+        <img src={imgSrc} alt='one of the random images'/>
     )
 }
 
