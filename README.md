@@ -1,4 +1,8 @@
 # odin-memory-card
+
+for whatever reason its not updating score on the github host but works perfectly on localhost, not sure how to resolve this atm, if i face the current issue with my
+next project i will put more effort into fixing it, or if i come back to this project as a portfolio piece ill obviously resolve it, but otherwise moving on now.
+
 https://www.theodinproject.com/lessons/node-path-javascript-memory-card
 
 Photo by <a href="https://unsplash.com/@sameer_srivastava?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sameer Srivastava</a> on <a href="https://unsplash.com/photos/M9kwG0fat3o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
