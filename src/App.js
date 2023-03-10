@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import ImgRender from './components/ImgRender'
 import './App.css';
 
@@ -16,7 +16,7 @@ const App = ({imgArr}) => {
         house: false,
         snowyMountain: false,
       },
-  })
+  });
 
   const onClick = (e) => {
     const {dataset} = e.target
@@ -48,9 +48,8 @@ const App = ({imgArr}) => {
           snowyMountain: false,
         }
       })
-
     }
-  }
+  };
 
   const randomOrderNumbers = () => {
     const randomNumArr = []
@@ -66,7 +65,7 @@ const App = ({imgArr}) => {
       }
     }
     return randomNumArr
-  }
+  };
 
   const fileNameFinder = (imgTarget) => {
     const regEx = /(\w+)/g
@@ -75,11 +74,7 @@ const App = ({imgArr}) => {
     and then returns the 3rd one, which is
     always the actual title of the piece */
   }
-  const randomNumArr = randomOrderNumbers()
-  /* change this to use effect once clicking changing state
-  is functional to rerender on clicking state change */
-
-  console.log(scores.clickedOrNot)
+  const randomNumArr = randomOrderNumbers();
 
   return (
     <div className='mainContainer'>
@@ -125,10 +120,3 @@ const App = ({imgArr}) => {
 }
 
 export default App;
-
-
-/* 
-/(\w+)/
-
-
-*/

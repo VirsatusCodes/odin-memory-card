@@ -5,8 +5,7 @@ const ImgRender = ({
     stringFinder,
     onClick,
 }) => {
-
-
+    
     return (
         <img 
             src={imgSrc} alt='one of the random images'
