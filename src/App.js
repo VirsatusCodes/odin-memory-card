@@ -75,6 +75,7 @@ const App = ({imgArr}) => {
     always the actual title of the piece */
   }
   const randomNumArr = randomOrderNumbers();
+  console.log(scores)
 
   return (
     <div className='mainContainer'>

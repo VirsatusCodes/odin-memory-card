@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/odin-memory-card/static/css/main.9a6b2bc8.css",
-    "main.js": "/odin-memory-card/static/js/main.856c42b7.js",
+    "main.js": "/odin-memory-card/static/js/main.0385dbc9.js",
     "static/media/house.jpg": "/odin-memory-card/static/media/house.e6e5416d5dc4ca31738f.jpg",
     "static/media/horses.jpg": "/odin-memory-card/static/media/horses.725e3f2c967d7a364b11.jpg",
     "static/media/mountainReflection.jpg": "/odin-memory-card/static/media/mountainReflection.8894e12cd6774b68cdc1.jpg",
@@ -10,10 +10,10 @@
     "static/media/sunset.jpg": "/odin-memory-card/static/media/sunset.21894099af038172c942.jpg",
     "index.html": "/odin-memory-card/index.html",
     "main.9a6b2bc8.css.map": "/odin-memory-card/static/css/main.9a6b2bc8.css.map",
-    "main.856c42b7.js.map": "/odin-memory-card/static/js/main.856c42b7.js.map"
+    "main.0385dbc9.js.map": "/odin-memory-card/static/js/main.0385dbc9.js.map"
   },
   "entrypoints": [
     "static/css/main.9a6b2bc8.css",
-    "static/js/main.856c42b7.js"
+    "static/js/main.0385dbc9.js"
   ]
 }
