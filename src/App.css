@@ -1,0 +1,34 @@
+body{
+    font-family: sans-serif;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: brown;
+}
+
+.mainContainer, .greetingMessage, .scoreContainers, .score, .imgContainers {
+    display: flex;
+    justify-content: center;
+}
+
+.mainContainer, .scoreContainers{
+    flex-flow: column;
+}
+
+p, div{
+    font-size: 30px;
+}
+
+.score{
+    margin-bottom: 30px;
+}
+
+.imgContainers{
+    flex-flow: row wrap;
+}
+
+img{
+    max-width: 500px;
+    max-height: 500px;
+    margin: 20px;
+}

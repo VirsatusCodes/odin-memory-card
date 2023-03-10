@@ -79,7 +79,7 @@ const App = ({imgArr}) => {
   return (
     <div className='mainContainer'>
       <div className='greetingMessage'>
-        <p>Click an Image!</p>
+        <p>Click an Image! But dont click the same twice.</p>
       </div>
       <div className='scoreContainers'>
         <div className='score'>
